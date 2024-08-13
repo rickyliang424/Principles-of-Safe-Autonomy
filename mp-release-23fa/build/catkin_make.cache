@@ -1,0 +1,2 @@
+actor_collision:gem_simulator/gem_description:gem_simulator/gem_gazebo:mp1:mp2:mp3:velodyne_simulator/velodyne_description:velodyne_simulator/velodyne_gazebo_plugins:velodyne_simulator/velodyne_simulator
+-DCATKIN_DEVEL_PREFIX=/home/hcliang-vm/Desktop/ECE484/mp-release-23fa/devel -DCMAKE_INSTALL_PREFIX=/home/hcliang-vm/Desktop/ECE484/mp-release-23fa/install -G Unix Makefiles

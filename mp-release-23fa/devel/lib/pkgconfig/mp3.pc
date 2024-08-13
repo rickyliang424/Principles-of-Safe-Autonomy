@@ -1,0 +1,8 @@
+prefix=/home/hcliang-vm/Desktop/ECE484/mp-release-23fa/devel
+
+Name: mp3
+Description: Description of mp3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,25 @@
+
+Problem 4:
+python3 main.py --num_particles 500 --sensor_limit 15 --vis_pre problem4-500 // 99.11s
+python3 main.py --num_particles 1000 --sensor_limit 15 --vis_pre problem4-1000 //120.33s
+python3 main.py --num_particles 1500 --sensor_limit 15 --vis_pre problem4-1500 // 167.70s
+
+Problem 5:
+python3 main.py --num_particles 1000 --sensor_limit 15 --vis_pre problem5-15 // = problem4-1000
+python3 main.py --num_particles 1000 --sensor_limit 20 --vis_pre problem5-20 // 123.36s
+python3 main.py --num_particles 1000 --sensor_limit 25 --vis_pre problem5-25 // 133.08s
+
+Problem 6:
+python3 main.py --num_particles 1000 --sensor_limit 15 --quadrant 1 --vis_pre problem6-1
+python3 main.py --num_particles 1000 --sensor_limit 15 --quadrant 2 --vis_pre problem6-2
+python3 main.py --num_particles 1000 --sensor_limit 15 --quadrant 3 --vis_pre problem6-3
+python3 main.py --num_particles 1000 --sensor_limit 15 --quadrant 4 --vis_pre problem6-4
+
+Problem 7:
+python3 main.py --num_particles 1000 --sensor_limit 20 --vis_pre problem7-lidar8 // 202.75s
+
+Problem 8:
+python3 main.py --num_particles 1500 --sensor_limit 25 --measurement_noise True --vis_pre problem8-measure_noise // 226.20
+
+Problem 9:
+python3 main.py --num_particles 500 --sensor_limit 15 --vis_pre problem9-quadrant --quadrant 4 // 198.92
